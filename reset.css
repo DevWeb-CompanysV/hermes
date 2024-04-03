@@ -1,0 +1,303 @@
+@charset "UTF-8";/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,aside,footer,header,nav,section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption,figure {
+    display: block
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+main {
+    display: block
+}
+
+pre {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,strong {
+    font-weight: inherit
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+code,kbd,samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+audio,video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button,input,optgroup,select,textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+button,html [type=button],[type=reset],[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+input {
+    overflow: visible
+}
+
+[type=checkbox],[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    color: inherit;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+details {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+menu {
+    display: block
+}
+
+canvas {
+    display: inline-block
+}
+
+template {
+    display: none
+}
+
+[hidden] {
+    display: none
+}
+
+:root {
+    --font-title: "Orator W01", "Gill Sans", "Gill Sans MT", calibri, serif;
+    --font-body: "Helvetica W01", "Helvetica Neue", sans-serif;
+    --font-body-secondary: "Courier New", monospace;
+    --font-filosofia: "Filosofia", serif;
+    --font-akkurat: "Akkurat", serif;
+    --font-jungle-love: "Jungle-Regular", serif;
+    --font-brides-de-gala: "BridesdeGala-Regular", serif;
+    --font-mors-a-jouet: "Mors-Regular-Auto", serif;
+    --font-size-breadcrumb: 1.2307692308rem;
+    --font-size-title-xlarge: 2.4615384615rem;
+    --font-size-title-large: 1.8461538462rem;
+    --font-size-title-medium: 1.5384615385rem;
+    --font-size-title-small: 1.2307692308rem;
+    --font-size-title-xsmall: 1.2307692308rem;
+    --font-size-title-xxsmall: 1.0769230769rem;
+    --font-size-cta: 1.0769230769rem;
+    --font-size-price-1: 1.5384615385rem;
+    --font-size-price-2: 1.0769230769rem;
+    --font-size-price-3: .9230769231rem;
+    --font-size-price-4: 1.2307692308rem;
+    --font-size-price-5: .7692307692rem;
+    --font-size-paragraph: 1.0769230769rem;
+    --font-size-link: .9230769231rem;
+    --font-size-error: .9230769231rem;
+    --font-size-mini-text: .9230769231rem;
+    --font-size-information-text: .8461538462rem;
+    --font-size-text-small: .7692307692rem;
+    --font-size-text-medium: .9230769231rem;
+    --font-size-text-large: 1.0769230769rem;
+    --font-weight-title: 400;
+    --font-weight-title-bold: 600;
+    --font-weight-cta: 500;
+    --font-weight-price-1: 400;
+    --font-weight-price-2: 400;
+    --font-weight-paragraph: 400;
+    --font-weight-paragraph-bold: 600;
+    --font-weight-link: 400;
+    --font-weight-error: 400;
+    --font-weight-mini-text: 400
+}
+
+@font-face {
+    font-family: Helvetica W01;
+    src: url(./fonts/89294146-207c-4803-91fe-338f0d0094bd.82e34efed00bdf3d.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Orator W01;
+    src: url(./fonts/d93452fb-6f2b-4f8c-bb51-7a7dbfbc1566.43aafa7175c3de91.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f6f1eb;
+    /* font-family: var(--font-body); */
+    color: #444;
+    line-height: 157.1428571429%;
+    font-weight: 200
+}
+
+html {
+    font-size: 81.25%
+}
+
+.tray-open {
+    margin-right: 0
+}
+
+.test-font{
+    font: 1.2307692308rem / 1.8461538462rem var(--font-body-secondary);
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.test-font2{
+    font-size: 20px;
+}
