@@ -1,0 +1,8 @@
+.test-font{
+    font: 1.2307692308rem / 1.8461538462rem var(--font-body-secondary);
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.test-font2{
+    font-size: 20px;
+}
