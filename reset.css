@@ -215,12 +215,6 @@ template {
 :root {
     --font-title: "Orator W01", "Gill Sans", "Gill Sans MT", calibri, serif;
     --font-body: "Helvetica W01", "Helvetica Neue", sans-serif;
-    --font-body-secondary: "Courier New", monospace;
-    --font-filosofia: "Filosofia", serif;
-    --font-akkurat: "Akkurat", serif;
-    --font-jungle-love: "Jungle-Regular", serif;
-    --font-brides-de-gala: "BridesdeGala-Regular", serif;
-    --font-mors-a-jouet: "Mors-Regular-Auto", serif;
     --font-size-breadcrumb: 1.2307692308rem;
     --font-size-title-xlarge: 2.4615384615rem;
     --font-size-title-large: 1.8461538462rem;
@@ -270,6 +264,29 @@ template {
     font-style: normal
 }
 
+body ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body button{
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    color: #444;
+    display: inline-block;
+}
+
+body a {
+    color: #444;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
 * {
     box-sizing: border-box
 }
@@ -289,7 +306,4 @@ html {
     font-size: 81.25%
 }
 
-.tray-open {
-    margin-right: 0
-}
 

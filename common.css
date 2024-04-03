@@ -1,8 +1,41 @@
-.test-font{
-    font: 1.2307692308rem / 1.8461538462rem var(--font-body-secondary);
-    text-align: center;
-    overflow-wrap: break-word;
+/* header-links-container */
+.header-links-container .header-links-container-content{
+    display: none;
 }
-.test-font2{
-    font-size: 20px;
+.header-links-container .header-links-container-content{
+    background: #f6f1eb;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+@media (min-width: 768px){
+    .header-links-container .header-links-container-content{
+        display: block;
+        padding-top: 14px;
+        width: 100%;
+        max-width: 1920px;
+    }
+}
+.header-links{
+    float: right;
+}
+
+.header-links button{
+    font-size: .8461538462rem;
+    color: #696969;
+    line-height: 1;
+}
+
+.header-links li {
+    display: inline-block;
+    padding: 0 0 0 .2782076923rem;
+    margin: 0 0 0 2rem;
+}
+
+.header-links a{
+    font-family: var(--font-body);
+    font-size: .8461538462rem;
+    color: #696969;
+    text-decoration: none;
+    cursor: pointer;
 }
