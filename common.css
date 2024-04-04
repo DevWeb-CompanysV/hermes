@@ -1,5 +1,14 @@
+/* header */
+#header-container{
+    width: 100vw;
+    max-width: 100%;
+}
 /* header-links-container */
+.header-links-container{
+    
+}
 .header-links-container .header-links-container-content{
+    height: 35px;
     display: none;
 }
 .header-links-container .header-links-container-content{
@@ -38,4 +47,33 @@
     color: #696969;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* header-main-container */
+.header-main-container{
+    position: relative;
+    max-width: 100%;
+    z-index: 100;
+    background: #f6f1eb;
+    box-shadow: 0 8px 16px #e2d8ce33;
+    height: 4.6153846154rem;
+}
+
+@media (min-width: 768px){
+    .header-main-container {
+        height: 5.7692307692rem;
+        width: 100vw;
+    }
+}
+
+.header-main-container .hmc__logo{
+    position: absolute;
+    transform: translate(-44%);
+    left: 50%;
+    z-index: 2;
+}
+.header-main-container .hmc__logo .hmc_logo_img{
+    display: block;
+    width: 6.4615384615rem;
+    height: 3.9230769231rem;
 }
