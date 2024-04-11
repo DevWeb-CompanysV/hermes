@@ -117,12 +117,14 @@
 
 
 .hmc__icons {
-    position: relative;
     display: flex;
-    align-items: center;
-    height: auto;
-    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    max-width: 1920px;
+    height: 3.8461538462rem;
 }
+
 @media (min-width: 768px){
     .header-vertical-align{
         margin-top: .1538461538rem;
@@ -152,17 +154,18 @@
         float: left;
     }
 }
-.hmc__icons .button-icon .icon-container {
+.hmc__icons .button-icon .icon-container svg {
     width: 1.8461538462rem;
     height: 1.8461538462rem;
     fill: #696969;
 }
-.hmc__icons .icon {
+.hmc__icons .icon svg {
     display: block;
     fill: #696969;
     width: 1.8461538462rem;
     height: 1.8461538462rem;
 }
+
 .hmc__icons .button-icon .icon-label{
     display: none;
 }
