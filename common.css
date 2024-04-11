@@ -114,3 +114,70 @@
         display: none;
     }
 }
+
+
+.hmc__icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+}
+@media (min-width: 768px){
+    .header-vertical-align{
+        margin-top: .1538461538rem;
+    }
+}
+.header-vertical-align {
+    margin-top: .3846153846rem;
+}
+.hmc__icons > li.hmc__icons-menu .menu, .hmc__icons > div.hmc__icons-menu .menu{
+    width: 3.8461538462rem;
+}   
+@media (min-width: 768px){
+    .hmc__icons > li.hmc__icons-menu .menu, .hmc__icons > div.hmc__icons-menu .menu{
+        width: 10.7692307692rem;
+    }
+}
+
+.hmc__icons .button-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+}
+@media (min-width: 768px){
+    .hmc__icons .button-icon .icon-container {
+        float: left;
+    }
+}
+.hmc__icons .button-icon .icon-container {
+    width: 1.8461538462rem;
+    height: 1.8461538462rem;
+    fill: #696969;
+}
+.hmc__icons .icon {
+    display: block;
+    fill: #696969;
+    width: 1.8461538462rem;
+    height: 1.8461538462rem;
+}
+.hmc__icons .button-icon .icon-label{
+    display: none;
+}
+@media (min-width: 768px){
+    .hmc__icons .button-icon .icon-label {
+        display: block;
+        color: #696969;
+        font-family: var(--font-body);
+        float: left;
+        font-size: 1.0769230769rem;
+        padding: .4230769231rem 0 .3846153846rem .7692307692rem;
+    }
+}
+.hmc__icons > li, .hmc__icons > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
