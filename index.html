@@ -69,12 +69,7 @@
                   <button id="collection-button" aria-label="Menu" class="button button-icon button-not-black"
                     aria-expanded="false" aria-haspopup="dialog" aria-controls="tray-nav-shop">
                     <span class="icon-container icon">
-                      <svg focusable="false" data-icon="menu" width="1em" height="1em" fill="currentColor"
-                        aria-hidden="true" viewBox="64 64 896 896">
-                        <path
-                          d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z">
-                        </path>
-                      </svg>
+                      <svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 6H20M4 12H20M4 18H20" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                     </span>
                     <span aria-hidden="true" class="icon-label">Menu</span>
                   </button>
@@ -114,6 +109,11 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <script src="./common.js"></script>
+  <script>
+    document.getElementById("collection-button").addEventListener("click", function(){
+      document.getElementsByClassName("search-input")[0].classList.add("focused")
+    });
+  </script>
 </body>
 
 </html>

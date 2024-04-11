@@ -259,3 +259,17 @@
         padding-left: 3.0769230769rem;
     }
 }
+.search-input.focused {
+    border: 1px solid #696969;
+    background-color: #fff;
+    text-indent: 0;
+    width: 100%;
+    height: 3.8461538462rem;
+    padding-left: 2.2307692308rem;
+}
+@media (min-width: 768px){
+    .search-input.focused {
+        height: 3.2307692308rem;
+        padding-left: 3.0769230769rem;
+    }
+}
