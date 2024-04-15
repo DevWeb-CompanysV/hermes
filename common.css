@@ -128,13 +128,15 @@
     height: 3.8461538462rem;
 }
 
+
+.header-vertical-align {
+    margin-top: .3846153846rem;
+}
+
 @media (min-width: 768px){
     .header-vertical-align{
         margin-top: .1538461538rem;
     }
-}
-.header-vertical-align {
-    margin-top: .3846153846rem;
 }
 .hmc__icons > li.hmc__icons-menu .menu, .hmc__icons > div.hmc__icons-menu .menu{
     width: 3.8461538462rem;
