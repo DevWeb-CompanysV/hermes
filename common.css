@@ -274,15 +274,17 @@
     }
 }
 
-@media (min-width: 768px){
-    .hmc__icons > li.account, .hmc__icons > div.account {
-        width: 8.7692307692rem;
-    }
-}
+
 
 .hmc__icons > li.account, .hmc__icons > div.account {
     justify-content: flex-end;
     width: 3.8461538462rem;
+}
+
+@media (min-width: 768px){
+    .hmc__icons > li.account, .hmc__icons > div.account {
+        width: 8.7692307692rem;
+    }
 }
 .hmc__icons .button-icon .icon-logged svg, .hmc__icons .button-icon .icon-cart svg{
     height: 1.6153846154rem;
