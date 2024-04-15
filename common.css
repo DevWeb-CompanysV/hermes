@@ -300,12 +300,12 @@
     height: 1.8461538462rem;
 }
 
+.hmc__icons > li.cart, .hmc__icons > div.cart {
+    justify-content: flex-end;
+    margin-left: 1.1538461538rem;
+}
 @media (min-width: 768px){
     .hmc__icons > li.cart, .hmc__icons > div.cart {
         margin-left: 2.3076923077rem;
     }
-}
-.hmc__icons > li.cart, .hmc__icons > div.cart {
-    justify-content: flex-end;
-    margin-left: 1.1538461538rem;
 }
