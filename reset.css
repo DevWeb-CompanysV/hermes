@@ -326,4 +326,11 @@ body a:focus,body button:focus,body input:focus,body select:focus,body textarea:
     outline: none
 }
 
+body h2, body .title-large{
+    line-height: 2.7692307692rem;
+    font-size: var(--font-size-title-large);
+    font-weight: var(--font-weight-title);
+}
+
+
 

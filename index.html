@@ -120,18 +120,19 @@
     <div id="menu-tray-container">
       <div class="tray-container tray-left-container">
         <div class="tray-left tray-wrapper">
+          <div tabindex="0" class="cdk-visually-hidden cdk-focus-trap-anchor" aria-hidden="true"></div>
           <div class="">
             <div class="tray-slide" style="opacity: 1;transform: translate3d(0px, 0px, 0px);">
               <div id="menu-tray-title">
                 <div class="tray-title" style="padding: 0px;">
                   <div class="accessibility-tray-title">
                     <button class="tray-close-button">
-                      <div class="tray-close-icon mobile-only">
+                      <span class="tray-close-icon mobile-only">
                         <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#00000" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#696969CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <rect width="24" height="24" fill="white"></rect> <path d="M7 17L16.8995 7.10051" stroke="#696969" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 7.00001L16.8995 16.8995" stroke="#696969" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                      </div>
-                      <div class="tray-close-icon desktop-only">
+                      </span>
+                      <span class="tray-close-icon desktop-only">
                         <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#00000" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#696969CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <rect width="24" height="24" fill="white"></rect> <path d="M7 17L16.8995 7.10051" stroke="#696969" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 7.00001L16.8995 16.8995" stroke="#696969" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                      </div>
+                      </span>
                     </button>
                     <div class="tray-title-i18n">
                       <h2 id="">Menu</h2>
@@ -239,10 +240,13 @@
                   </div>
                 </div>
               </div>
-            </iv>
+            </div>
           </div>
         </div>
       </div> 
+      <div class="menu-tray-overlay">
+        <div class="tray-overlay" style="opacity: 0.45; pointer-events: all;"></div>
+      </div>
     </div>
   </div>
   
