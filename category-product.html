@@ -2,22 +2,214 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bootstrap demo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="./reset.css" rel="stylesheet" />
-  <link href="./common.css" rel="stylesheet" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link href="./reset.css" rel="stylesheet"/>
+    <link href="./common.css" rel="stylesheet"/>
+    <link href="./index.css" rel="stylesheet"/>
 </head>
 
 <body>
-  <div id="wrapper">
-    
+<div id="catrgory-product">
+    <div class="block-filter">
+        <div>
+            <span>WOMEN</span>
+            <div class="d-flex product-name">
+                <h1>SHOES</h1> <span>(409)</span>
+            </div>
+        </div>
+    </div>
+    <div class="block-category position-relative d-flex justify-content-between">
+        <ul class="d-flex align-items-center">
+            <li>
+                <div class="block-category-li">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <div class="form-check-label" for="flexSwitchCheckDefault">Available online</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="d-flex align-items-center">
+                    Universe <span class="material-symbols-outlined icon-small">keyboard_arrow_down</span>
+                    <div class="dropdown-content">
+                        <label><input type="checkbox"> Sandals and mules (206)</label>
+                        <label><input type="checkbox"> Sneakers (60)</label>
+                        <label><input type="checkbox"> Espadrilles (17)</label>
+                        <label><input type="checkbox"> Loafers and derbies (74)</label>
+                        <label><input type="checkbox"> Boots and ankle boots (35)</label>
+                    </div>
+                </div>
 
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="./common.js"></script>
+            </li>
+            <li>
+                <div class="d-flex align-items-center">
+                    Category <span class="material-symbols-outlined icon-small">keyboard_arrow_down</span>
+                </div>
+            </li>
+            <li>
+                <div class="d-flex align-items-center">
+                    Line <span class="material-symbols-outlined icon-small">keyboard_arrow_down</span>
+                </div>
+            </li>
+            <li>
+                <div class="d-flex align-items-center">
+                    Heel height <span class="material-symbols-outlined icon-small">keyboard_arrow_down</span>
+                </div>
+            </li>
+            <li>
+                <div class="d-flex align-items-center">
+                    Color <span class="material-symbols-outlined icon-small">keyboard_arrow_down</span>
+                </div>
+            </li>
+            <li>
+                <div class="d-flex align-items-center">
+                    Price <span class="material-symbols-outlined icon-small">keyboard_arrow_down</span>
+                </div>
+            </li>
+            <li>
+                <div class="d-flex align-items-center">
+                    Collection <span class="material-symbols-outlined icon-small">keyboard_arrow_down</span>
+                </div>
+            </li>
+            <li>
+                <div class="d-flex align-items-center">
+                    Size <span class="material-symbols-outlined icon-small">keyboard_arrow_down</span>
+                </div>
+            </li>
+        </ul>
+        <div class="filter-right d-flex align-items-center">
+            <div>
+                <div class="d-flex flex-column">
+                    <span class="text-sm">Sort by</span>
+                    <span class="text-sm">Lowest price</span>
+                </div>
+            </div>
+            <div>
+                <span class="material-symbols-outlined icon-small">keyboard_arrow_down</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="product1">
+        <div class="grid-container">
+            <div class="grid-item">
+                <a href="">
+                    <img class="image-product" src="./images/1.webp" alt="">
+                    <span class="sub-text">Sandals and mules</span>
+                </a>
+
+            </div>
+            <div class="grid-item">
+                <a href="">
+                    <img class="image-product" src="./images/1.webp" alt="">
+                    <span class="sub-text">Sandals and mules</span>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="">
+                    <img class="image-product" src="./images/1.webp" alt="">
+                    <span class="sub-text">Sandals and mules</span>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="">
+                    <img class="image-product" src="./images/1.webp" alt="">
+                    <span class="sub-text">Sandals and mules</span>
+                </a>
+            </div>
+            <!-- Bạn có thể thêm nhiều item hơn ở đây nếu cần -->
+        </div>
+    </div>
+    <div class="product2">
+        <div class="grid-container">
+            <div class="product-grid-list-item">
+                <div class="product-item">
+                    <a class="product-item-meta-link">
+                        <div class="default-image">
+                            <div class="image-resizer">
+                                <picture class="media-wrap-square">
+                                    <source _ngcontent-hermes-c1902863395="" srcset="./images/2.jpg" media="all" class="ng-star-inserted">
+                                    <img height="400" width="400" loading="lazy" data-cs-override-id="" alt="" src="./images/2.jpg">
+                                </picture>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="product-grid-list-item">
+                <div class="product-item">
+                    <a class="product-item-meta-link">
+                        <div class="default-image">
+                            <div class="image-resizer">
+                                <picture class="media-wrap-square">
+                                    <source _ngcontent-hermes-c1902863395="" srcset="./images/2.jpg" media="all" class="ng-star-inserted">
+                                    <img height="400" width="400" loading="lazy" data-cs-override-id="" alt="" src="./images/2.jpg">
+                                </picture>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="product-grid-list-item">
+                <div class="product-item">
+                    <a class="product-item-meta-link">
+                        <div class="default-image">
+                            <div class="image-resizer">
+                                <picture class="media-wrap-square">
+                                    <source _ngcontent-hermes-c1902863395="" srcset="./images/2.jpg" media="all" class="ng-star-inserted">
+                                    <img height="400" width="400" loading="lazy" data-cs-override-id="" alt="" src="./images/2.jpg">
+                                </picture>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="grid-result-edito " id="grid-result-edito-0" style="">
+                <section aria-label="Editorial content" class="editorial-item ng-star-inserted">
+                    <div class="editorial-snackable">
+                        <div>
+                            <figure role="figure" class="ng-star-inserted">
+                                <div class="ng-star-inserted">
+                                    <picture _ngcontent-hermes-c1707699905="" class="ng-star-inserted">
+                                        <source media="(min-width: 320px) and (max-width: 414px)" srcset="./images/3.webp" class="ng-star-inserted">
+                                        <source media="(min-width: 415px) and (max-width: 767px)" srcset="./images/3.webp" class="ng-star-inserted">
+                                        <source media="(min-width: 768px) and (max-width: 1024px)" srcset="./images/3.webp" class="ng-star-inserted">
+                                        <source media="(min-width: 1025px) and (max-width: 1280px)" srcset="./images/3.webp" class="ng-star-inserted">
+                                        <source media="(min-width: 1281px) and (max-width: 1920px)" srcset="./images/3.webp" class="ng-star-inserted">
+                                        <source media="(min-width: 1281px) and (max-width: 1920px)" srcset="./images/3.webp" class="ng-star-inserted">
+                                        <source media="(min-width: 1921px)" srcset="./images/3.webp" class="ng-star-inserted">
+                                        <img loading="lazy" class="main-image" src="./images/3.webp" alt="">
+                                    </picture>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="editorial-item-body ng-star-inserted">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<script src="./common.js"></script>
+<script>
+
+</script>
 </body>
 
 </html>
