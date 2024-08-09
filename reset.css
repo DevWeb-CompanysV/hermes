@@ -243,41 +243,6 @@ template {
   display: none;
 }
 
-:root {
-  --font-title: "Orator W01", "Gill Sans", "Gill Sans MT", calibri, serif;
-  --font-body: "Helvetica W01", "Helvetica Neue", sans-serif;
-  --font-size-breadcrumb: 1.2307692308rem;
-  --font-size-title-xlarge: 2.4615384615rem;
-  --font-size-title-large: 1.8461538462rem;
-  --font-size-title-medium: 1.5384615385rem;
-  --font-size-title-small: 1.2307692308rem;
-  --font-size-title-xsmall: 1.2307692308rem;
-  --font-size-title-xxsmall: 1.0769230769rem;
-  --font-size-cta: 1.0769230769rem;
-  --font-size-price-1: 1.5384615385rem;
-  --font-size-price-2: 1.0769230769rem;
-  --font-size-price-3: 0.9230769231rem;
-  --font-size-price-4: 1.2307692308rem;
-  --font-size-price-5: 0.7692307692rem;
-  --font-size-paragraph: 1.0769230769rem;
-  --font-size-link: 0.9230769231rem;
-  --font-size-error: 0.9230769231rem;
-  --font-size-mini-text: 0.9230769231rem;
-  --font-size-information-text: 0.8461538462rem;
-  --font-size-text-small: 0.7692307692rem;
-  --font-size-text-medium: 0.9230769231rem;
-  --font-size-text-large: 1.0769230769rem;
-  --font-weight-title: 400;
-  --font-weight-title-bold: 600;
-  --font-weight-cta: 500;
-  --font-weight-price-1: 400;
-  --font-weight-price-2: 400;
-  --font-weight-paragraph: 400;
-  --font-weight-paragraph-bold: 600;
-  --font-weight-link: 400;
-  --font-weight-error: 400;
-  --font-weight-mini-text: 400;
-}
 
 @font-face {
   font-family: Helvetica W01;
@@ -390,21 +355,21 @@ body .title-large {
 }
 
 @media (max-width: 768px) {
-  body {
-    font-size: 14px;
+  html {
+    font-size: 16px;
   }
 }
 
 /* Màn hình có chiều rộng tối đa 1024px (ví dụ: máy tính bảng) */
 @media (max-width: 1024px) {
-  body {
+  html {
     font-size: 15px;
   }
 }
 
 /* Màn hình có chiều rộng lớn hơn 1024px (máy tính để bàn) */
 @media (min-width: 1025px) {
-  body {
-    font-size: 18px;
+  html {
+    font-size: 14px;
   }
 }
