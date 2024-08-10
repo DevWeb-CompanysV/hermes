@@ -82,7 +82,7 @@
   border-bottom: 1px solid #444;
 }
 #main-content .category-poster {
-  padding: 10px;
+  padding: 15px;
 }
 #main-content .category-poster .category-poster-image {
   padding: 10px;
@@ -104,131 +104,7 @@
   font-family: var(--font-title);
 }
 
-#footer .main-footer {
-  background-color: #fff;
-}
-#footer .links-block {
-  margin-top: 20px;
-  border-bottom: 1px solid #f6f1eb;
-  padding: 35px 35px 20px;
-  margin-bottom: 20px;
-}
-#footer .page-footer {
-  width: 100%;
-}
-#footer .page-footer button.column-toggle {
-  text-align: left;
-  font-size: 1.2307692308rem;
-  line-height: 1.6923076923rem;
-  font-family: var(--font-title);
-  color: #444;
-}
-#footer .page-footer svg {
-  stroke: #444;
-  stroke-width: 0.5;
-  margin-left: 5px;
-}
-#footer .page-footer ul.opened {
-  max-height: 1000px;
-  transition: max-height 0.4s ease-in;
-}
-#footer .page-footer li:first-child {
-  padding-top: 15px;
-}
-#footer .page-footer li {
-  padding: 10px 1px;
-  text-align: left;
-}
-#footer .page-footer li a,
-#footer .page-footer li button {
-  font-size: 0.9230769231rem;
-  line-height: 1.2307692308rem;
-  font-family: var(--font-body);
-  color: #696969;
-}
-#footer .here-to-help-block {
-  padding: 0 35px;
-  padding-bottom: 20px;
-}
-#footer .here-to-help-block li:first-child {
-  padding-top: 0px;
-}
-#footer .here-to-help-block span.heading {
-  font-size: 1.2307692308rem;
-  line-height: 1.6923076923rem;
-  font-family: var(--font-title);
-  display: inline-block;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-#footer .here-to-help-block .description-block {
-  font-size: var(--font-size-paragraph);
-  margin: 0;
-}
-#footer .here-to-help-block .email-us {
-  text-decoration: none;
-  background-image: linear-gradient(rgba(105, 105, 105, 0.8) 50% 50%);
-  background-repeat: repeat-x;
-  background-position: 0 100%;
-  background-size: 1px 1px;
-  font-size: 0.9230769231rem;
-  font-family: var(--font-body);
-  color: #444;
-}
-#footer .here-to-help-block .call-us a {
-  text-decoration: underline;
-}
-#footer .newsletter-subscribe-block {
-  text-align: center;
-}
-#footer .newsletter-subscribe-block p {
-  font-size: 0.9230769231rem;
-  line-height: 1.5384615385rem;
-  margin-bottom: 10px;
-}
-#footer .newsletter-subscribe-block .button-secondary,
-#footer .newsletter-subscribe-block .button-secondary.dark {
-  text-decoration: none;
-  background: transparent;
-  color: #444;
-  border: 0.0769230769rem solid #444;
-  line-height: calc(var(--font-size-cta) * 1.5 - 0.1538461538rem);
-  width: 50%;
-  max-width: 18.4615384615rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 9.5px 18px;
-  font-family: var(--font-body);
-  font-weight: 700;
-  position: relative;
-  width: auto;
-  margin: 0 auto;
-  min-width: 15.3846153846rem;
-  max-width: 20.7692307692rem;
-  font-size: var(--font-size-cta);
-}
-#footer .social-block {
-  text-align: center;
-}
-#footer .sub-footer {
-  margin: 0;
-  padding: 20px 35px;
-}
-#footer .sub-footer .country-selector-block {
-  font-size: 1.2307692308rem;
-  line-height: 1.6923076923rem;
-  font-family: var(--font-title);
-  color: #444;
-}
-#footer .copyright-block {
-  font-size: var(--font-size-paragraph);
-  margin: 0;
-  text-align: right;
-  padding: 0 35px;
-}
+
 
 #catrgory-product .block-filter {
   font-family: "Orator W01", "Gill Sans", "Gill Sans MT", calibri, serif;
