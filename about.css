@@ -61,6 +61,7 @@
 }
 #about .white-background {
   background-color: #fffcf7;
+  margin: 0 12%;
 }
 #about .white-background .block-text {
   padding-bottom: 40px;
@@ -93,7 +94,12 @@
 #about .white-background .block_standard_media img {
   width: 100%;
 }
-
+@media screen and (max-width: 992px) {
+  #about .white-background {
+    background-color: #fffcf7;
+    margin: 0 5%;
+  }
+}
 @media screen and (max-width: 768px) {
   #about .block-media-text {
     flex-flow: column nowrap;
