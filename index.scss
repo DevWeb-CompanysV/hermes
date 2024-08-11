@@ -1344,6 +1344,134 @@
       }
     }
     .right-column {
+
+      .container {
+        text-align: center;
+      }
+
+      .size-guide {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .size-block {
+        display: none;
+      }
+      .sizes {
+        display: grid;
+        grid-template-columns: repeat(4, 60px);
+        grid-gap: 10px;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .sizes div {
+        border: 1px solid #000;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .sizes div:hover {
+        background-color: #ddd;
+      }
+      .size-dropdown {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #FFFCF7;
+        border: 1px solid #eee;
+        cursor: pointer;
+        font-family: "Courier New", monospace;
+        letter-spacing: 3px;
+      }
+      .sizes div:hover {
+        background-color: #ddd;
+      }
+
+      .add-to-cart {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        min-height: 3.0769230769rem;
+        display: flex;
+        margin: 0 auto;
+        line-height: -6;
+        align-items: center;
+      }
+
+      .add-to-cart:hover {
+        background-color: #555;
+      }
+
+      .accordion-container {
+        background-color: #FFFCF7;
+      }
+
+      .accordion-item {
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+        cursor: pointer;
+        font-family: "Courier New", monospace;
+        letter-spacing: 2px;
+      }
+
+      .accordion-item:last-child {
+        border-bottom: none;
+      }
+
+      .accordion-item .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Orator W01", "Gill Sans", "Gill Sans MT", calibri, serif;
+      }
+
+      .accordion-item .title:after {
+        content: '\25BC'; /* Down arrow */
+        font-size: 14px;
+      }
+
+      .accordion-item.active .title:after {
+        content: '\25B2'; /* Up arrow */
+      }
+
+      .accordion-content {
+        display: none;
+        padding-top: 10px;
+        color: #333;
+        font-size: 14px;
+        font-family: "Helvetica W01", "Helvetica Neue", sans-serif;
+      }
+      .accordion-content p::before {
+        content: "• ";
+        color: black; /* Màu của dấu chấm */
+        margin-right: 8px; /* Khoảng cách giữa dấu chấm và văn bản */
+      }
+      .product-reference {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #333;
+      }
+
+      .customer-service {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+
+      .customer-service a {
+        color: #333;
+        text-decoration: underline;
+      }
+
+
       max-width: 375px;
       flex: 0 0 375px;
       order: 1;
