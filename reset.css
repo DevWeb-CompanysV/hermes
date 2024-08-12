@@ -356,21 +356,21 @@ body .title-large {
 
 @media (max-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
 /* Màn hình có chiều rộng tối đa 1024px (ví dụ: máy tính bảng) */
 @media (max-width: 1024px) {
   html {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 /* Màn hình có chiều rộng lớn hơn 1024px (máy tính để bàn) */
 @media (min-width: 1025px) {
   html {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
