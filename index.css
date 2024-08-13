@@ -605,6 +605,9 @@
   align-items: center;
   justify-content: center;
 }
+#catrgory-product .grid-filters-bar-wrapper .mobile-bar-filter-wrapper .filters-box .dialog-filters-box .dialog-filters-box-body .toggle-content border-bottom .available-filters .filter-checkbox-wrapper button .filter-item-wrapper .filter-item-svg-check {
+  display: none;
+}
 #catrgory-product .grid-filters-bar-wrapper .mobile-bar-filter-wrapper .filters-box .dialog-filters-box .dialog-filters-box-body .toggle-content border-bottom .available-filters .filter-checkbox-wrapper button .filter-item-wrapper .filter-item-infos {
   font-size: 0.9230769231rem;
   line-height: 1.5384615385rem;
@@ -730,6 +733,8 @@
   width: 100%;
   height: 100%;
   z-index: 2;
+  background: #FFFCF7;
+  font-size: 10px;
 }
 #catrgory-product .grid-filters-bar-wrapper .mobile-bar-select-wrapper .form-sort .form-item-select .form-item-select-label-wrapper select option {
   color: #000;
@@ -898,9 +903,7 @@
   font-family: var(--font-body);
   font-weight: 200;
   color: #000;
-  overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis;
 }
 #catrgory-product .block-category {
   background: #fffcf7;
@@ -2718,10 +2721,36 @@
   align-self: stretch;
 }
 #main-product .two-columns-container .right-column .product-image-carousel {
+  position: relative;
   width: 100%;
 }
 #main-product .two-columns-container .right-column .product-image-carousel img {
   width: 100%;
+}
+#main-product .two-columns-container .right-column .product-image-carousel .owl-dots {
+  text-align: center;
+  margin-top: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+#main-product .two-columns-container .right-column .product-image-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: scale(1.5);
+  border: solid 1px #fff;
+  background: #696969;
+  left: 8px;
+  width: 5px;
+  height: 5px;
+  opacity: initial;
+  text-align: center;
+  margin-top: 15px;
+}
+#main-product .two-columns-container .right-column .product-image-carousel .owl-dot.active {
+  background-color: #444; /* Màu cho dot khi được chọn */
 }
 #main-product .two-columns-container .right-column .container {
   text-align: center;
@@ -3667,6 +3696,19 @@
 
 #catrgory-product .product2 .product-item a .default-image .image-resizer:hover .button2 {
   display: flex;
+}
+
+.toggle-header-toggler.toggler-icon {
+  transform: rotate(0deg);
+}
+
+.toggler-icon.rotate {
+  transform: rotate(180deg) !important; /* Xoay 180 độ */
+  transition: transform 0.3s ease; /* Hiệu ứng chuyển động mượt mà */
+}
+
+.filter-item-svg-check {
+  display: none;
 }
 
 /*# sourceMappingURL=index.css.map */
