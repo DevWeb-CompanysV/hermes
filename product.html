@@ -10,6 +10,7 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
     />
+    <link href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="./reset.css" rel="stylesheet"/>
     <link href="./common.css" rel="stylesheet"/>
     <link rel="stylesheet" href="./index.css"/>
@@ -53,6 +54,12 @@
                             <div>
                                 <div class="two-columns-container">
                                     <div class="right-column">
+                                        <div class="product-image-carousel owl-carousel owl owl-theme">
+                                            <img src="./images/9.webp" alt="" style="object-fit: cover">
+                                            <img src="./images/9.webp" alt="" style="object-fit: cover">
+                                            <img src="./images/9.webp" alt="" style="object-fit: cover">
+                                            <img src="./images/9.webp" alt="" style="object-fit: cover">
+                                        </div>
                                         <div class="sticky">
                                             <div class="product-infos">
                                                 <div class="product-infos-inner">
@@ -725,9 +732,21 @@
         crossorigin="anonymous"
 ></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
 
 <script>
     $(document).ready(function () {
+        var owl = $('.owl').owlCarousel({
+            items: 1,
+            loop: true,
+            dots: true,
+            center: true,
+            margin: 0,
+            stagePadding: 0
+        });
+
+
+
         $(".size-dropdown").click(function () {
             $(".size-block").slideToggle();
 
