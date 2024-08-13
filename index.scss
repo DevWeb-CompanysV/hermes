@@ -1297,6 +1297,7 @@
   display: block;
 }
 @media screen and (min-width: 768px) {
+
   #catrgory-product {
     .custom-prev-btn,
     .custom-next-btn {
@@ -2212,6 +2213,9 @@
         }
       }
     }
+  }
+  #catrgory-product .owl2 .owl-dots {
+    display: none;
   }
 }
 

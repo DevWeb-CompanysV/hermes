@@ -2077,6 +2077,9 @@
     font-size: 0.9230769231rem;
     line-height: 1.5384615385rem;
   }
+  #catrgory-product .owl2 .owl-dots {
+    display: none;
+  }
 }
 #main-contact-us .page-wrapper {
   height: 100%;
