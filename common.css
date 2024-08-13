@@ -797,6 +797,12 @@
   vertical-align: middle;
 }
 @media screen and (max-width: 768px) {
+  #menu-tray-container .tray-container {
+    max-width: 100%;
+  }
+  #menu-tray-container .tray-wrapper {
+    max-width: 100%;
+  }
   #menu-tray-container .tray-wrapper .tray-title {
     padding: 1.3076923077rem 1.9230769231rem;
     max-width: 100%;
