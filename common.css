@@ -477,6 +477,18 @@
 #footer .main-footer {
   background-color: #fff;
 }
+@media screen and (max-width: 768px) {
+  #footer .main-footer .wrap-button-show {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 19px;
+    border-bottom: 1px solid #e2d8ce;
+  }
+  #footer .main-footer .col-12.col-md-3:last-child .wrap-button-show {
+    border-bottom: none;
+  }
+}
 
 #footer .links-block {
   margin-top: 20px;
@@ -501,6 +513,11 @@
   stroke: #444;
   stroke-width: 0.5;
   margin-left: 5px;
+}
+
+#footer .page-footer ul {
+  max-height: 0px;
+  overflow: hidden;
 }
 
 #footer .page-footer ul.opened {
@@ -798,7 +815,8 @@
 }
 @media screen and (max-width: 768px) {
   #menu-tray-container .tray-container {
-    max-width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
   #menu-tray-container .tray-wrapper {
     max-width: 100%;
