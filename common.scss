@@ -607,6 +607,7 @@
     transition: opacity 0.3s ease, transform 0.3s ease;
   }
   .tray-container {
+    max-width: 39.2307692308rem;
     display: flex;
     flex-flow: nowrap column;
     position: absolute;
