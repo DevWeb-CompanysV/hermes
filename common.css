@@ -641,6 +641,7 @@
 #menu-tray-container.show .tray-left-container {
   opacity: 1;
   transform: translateX(0);
+  overflow: hidden;
 }
 #menu-tray-container.show .tray-overlay {
   background-color: #696969;
