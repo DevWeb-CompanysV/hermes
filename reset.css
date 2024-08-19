@@ -275,12 +275,12 @@ body button {
   background-color: transparent;
   text-decoration: none;
   cursor: pointer;
-  color: #444;
+  color: #edeae2;
   display: inline-block;
 }
 
 body a {
-  color: #444;
+  color: #edeae2;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -293,9 +293,9 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
-  background-color: #f6f1eb;
+  background-color: #434530;
   /* font-family: var(--font-body); */
-  color: #444;
+  color: #edeae2;
   line-height: 157.1428571429%;
   font-weight: 200;
 }
