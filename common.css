@@ -129,7 +129,7 @@
 }
 
 .header-vertical-align {
-  margin-top: 0.3846153846rem;
+  /* margin-top: 0.3846153846rem; */
 }
 
 @media (min-width: 768px) {
@@ -835,7 +835,7 @@
   }
   #menu-tray-container .institutional-wrapper {
     padding: 1.1538461538rem 1.9230769231rem 1.5384615385rem;
-    background-color: #f6f1eb;
+    background-color: #434530;
     width: 100%;
   }
 }
