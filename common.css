@@ -328,6 +328,9 @@
   }
 }
 /* menu */
+.tray-content{
+  color: #edeae2;
+}
 .tray-left-container {
   position: fixed;
   display: block;
@@ -457,7 +460,7 @@
 }
 
 .tray-title-i18n {
-  color: #444;
+  color: #edeae2;
 }
 
 .tray-title-i18n h2 {
@@ -681,7 +684,7 @@
   height: auto;
   width: 100%;
   left: 0;
-  background-color: #fff;
+  background-color: #62653e;
 }
 #menu-tray-container .tray-wrapper .cdk-visually-hidden {
   border: 0;
@@ -795,7 +798,7 @@
 }
 #menu-tray-container .institutional-wrapper {
   padding: 1.1538461538rem 7.6923076923rem 1.5384615385rem;
-  background-color: #f6f1eb;
+  background-color: #434530;
   width: 100%;
 }
 #menu-tray-container .institutional-wrapper a.item-institutional {
@@ -809,7 +812,7 @@
   font-size: 1.0769230769rem;
   letter-spacing: 0.0230769231rem;
   margin-left: 0.9230769231rem;
-  color: #444;
+  color: #edeae2;
   font-family: var(--font-body);
   display: inline;
   vertical-align: middle;
