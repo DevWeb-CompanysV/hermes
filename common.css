@@ -21,7 +21,7 @@
     display: block;
     padding-top: 14px;
     width: 100%;
-    max-width: 1920px;
+    /* max-width: 1920px; */
   }
 }
 .header-links {
