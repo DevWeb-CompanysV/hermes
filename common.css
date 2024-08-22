@@ -886,9 +886,11 @@
   }
 }
 .header-main-container.scroll {
+  width: 98%;
   display: none;
   position: fixed;
   top: 20px;
+  left: 1%;
   display: block;
   background-color: #fff;
   border-radius: 2rem;
