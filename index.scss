@@ -6363,10 +6363,38 @@
   transition: background-color 0.5s ease-out, border-color 0.5s ease-out,
     box-shadow 0.5s ease-out;
 }
-.img-nearest{
+.img-nearest {
   width: 300px;
 
-  img{
+  img {
     width: 100%;
+  }
+}
+.index-owl img {
+  height: 100%;
+}
+.index-owl {
+  padding: 30px;
+  .owl-nav {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    button {
+      background-color: #fff !important;
+      color: #000 !important;
+      margin-left: 10px;
+      background-position: 50%;
+      border-radius: 4.8rem;
+      width: 48px;
+      height: 48px;
+      span {
+        font-size: 36px;
+      }
+    }
+  }
+}
+.ap-carousel{
+  .block-text{
+    padding: 30px;
   }
 }

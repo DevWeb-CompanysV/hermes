@@ -4103,4 +4103,33 @@
   width: 100%;
 }
 
+.index-owl img {
+  height: 100%;
+}
+
+.index-owl {
+  padding: 30px;
+}
+.index-owl .owl-nav {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+.index-owl .owl-nav button {
+  background-color: #fff !important;
+  color: #000 !important;
+  margin-left: 10px;
+  background-position: 50%;
+  border-radius: 4.8rem;
+  width: 48px;
+  height: 48px;
+}
+.index-owl .owl-nav button span {
+  font-size: 36px;
+}
+
+.ap-carousel .block-text {
+  padding: 30px;
+}
+
 /*# sourceMappingURL=index.css.map */

@@ -52,7 +52,163 @@
                                  <button
                                     id="collection-button"
                                     aria-label="Menu"
+                                    class="button button-menu button-icon button-not-black"
+                                    aria-expanded="false"
+                                    aria-haspopup="dialog"
+                                    aria-controls="tray-nav-shop"
+                                    >
+                                    <span class="icon-container icon">
+                                       <svg
+                                          viewBox="-1.44 -1.44 26.88 26.88"
+                                          fill="none"
+                                          transform="matrix(1, 0, 0, 1, 0, 0)"
+                                          >
+                                          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                          <g
+                                             id="SVGRepo_tracerCarrier"
+                                             stroke-linecap="round"
+                                             stroke-linejoin="round"
+                                             ></g>
+                                          <g id="SVGRepo_iconCarrier">
+                                             <path
+                                                d="M4 6H20M4 12H20M4 18H20"
+                                                stroke="#444444"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                ></path>
+                                          </g>
+                                       </svg>
+                                    </span>
+                                    <span aria-hidden="true" class="icon-label">Menu</span>
+                                 </button>
+                              </nav>
+                           </div>
+                        </div>
+                        <div class="hmc__icons-search search-bar">
+                           <div class="search-bar-container">
+                              <form action="get">
+                                 <div class="search-input-container">
+                                    <span class="search-icon">
+                                       <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                                          viewBox="0,0,256,256"
+                                          >
+                                          <g
+                                             fill="#444444"
+                                             fill-rule="nonzero"
+                                             stroke="none"
+                                             stroke-width="1"
+                                             stroke-linecap="butt"
+                                             stroke-linejoin="miter"
+                                             stroke-miterlimit="10"
+                                             stroke-dasharray=""
+                                             stroke-dashoffset="0"
+                                             font-family="none"
+                                             font-weight="none"
+                                             font-size="none"
+                                             text-anchor="none"
+                                             style="mix-blend-mode: normal"
+                                             >
+                                             <g transform="scale(8,8)">
+                                                <path
+                                                   d="M19,3c-5.51172,0 -10,4.48828 -10,10c0,2.39453 0.83984,4.58984 2.25,6.3125l-7.96875,7.96875l1.4375,1.4375l7.96875,-7.96875c1.72266,1.41016 3.91797,2.25 6.3125,2.25c5.51172,0 10,-4.48828 10,-10c0,-5.51172 -4.48828,-10 -10,-10zM19,5c4.42969,0 8,3.57031 8,8c0,4.42969 -3.57031,8 -8,8c-4.42969,0 -8,-3.57031 -8,-8c0,-4.42969 3.57031,-8 8,-8z"
+                                                   ></path>
+                                             </g>
+                                          </g>
+                                       </svg>
+                                    </span>
+                                    <label class="sr-only">Search</label>
+                                    <input
+                                       type="text"
+                                       id="search-suggestion-field"
+                                       name="s"
+                                       title="Search for an article"
+                                       placeholder="Search"
+                                       class="search-input"
+                                       autocomplete="off"
+                                       aria-autocomplete="list"
+                                       aria-controls="header-search-suggestions"
+                                       />
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                        <nav class="hmc__icons-account-cart">
+                           <ul class="hmc__icons">
+                              <li class="cart">
+                                 <button
+                                    id="open-cart"
                                     class="button button-icon button-not-black"
+                                    data-testid="header-cart-button"
+                                    >
+                                    <span class="icon-cart">
+                                       <svg
+                                          width="64px"
+                                          height="64px"
+                                          viewBox="0 0 24.00 24.00"
+                                          fill="none"
+                                          stroke="#444444"
+                                          >
+                                          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                          <g
+                                             id="SVGRepo_tracerCarrier"
+                                             stroke-linecap="round"
+                                             stroke-linejoin="round"
+                                             stroke="#CCCCCC"
+                                             stroke-width="0.384"
+                                             ></g>
+                                          <g id="SVGRepo_iconCarrier">
+                                             <path
+                                                d="M8 11.01V11M16 11.01V11M8 8V7C8 5.93913 8.42143 4.92172 9.17157 4.17157C9.92172 3.42143 10.9391 3 12 3C13.0609 3 14.0783 3.42143 14.8284 4.17157C15.5786 4.92172 16 5.93913 16 7V8M8 8H6.84027C5.80009 8 4.93356 8.79732 4.84718 9.83391L4.18051 17.8339C4.08334 18.9999 5.00352 20 6.1736 20H17.8264C18.9965 20 19.9167 18.9999 19.8195 17.8339L19.1528 9.83391C19.0664 8.79732 18.1999 8 17.1597 8H16M8 8H16"
+                                                stroke="#000000"
+                                                stroke-width="0.744"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                ></path>
+                                          </g>
+                                       </svg>
+                                    </span>
+                                    <span aria-hidden="true" class="icon-label">Cart</span>
+                                    <span class="sr-only">Cart</span
+                                       ><span class="sr-only">, </span>
+                                    <span
+                                       id="accessibility-header-cart-count"
+                                       class="sr-only"
+                                       >empty</span
+                                       >
+                                 </button>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="header-main-container scroll">
+               <div class="header-main">
+                  <div class="header-main-content">
+                     <div class="hmc__logo">
+                        <a href="#" class="hmc__logo-a">
+                           <div class="hmc__logo-img">
+                              <img
+                                 src="./images/logo2.svg" style="width: 100%; height: 100%;"
+                                 />
+                           </div>
+                           <div class="hmc__logo-img-small">
+                              <img src="./images/logo2.svg" style="width: 100%; height: 100%;" />
+                           </div>
+                        </a>
+                     </div>
+                     <div class="hmc__icons header-vertical-align">
+                        <div class="hmc__icons-menu">
+                           <div class="menu">
+                              <nav aria-label="Navigation menu" role="navigation">
+                                 <button
+                                    id="collection-button"
+                                    aria-label="Menu"
+                                    class="button button-menu button-icon button-not-black"
                                     aria-expanded="false"
                                     aria-haspopup="dialog"
                                     aria-controls="tray-nav-shop"
@@ -522,7 +678,7 @@
                </div>
             </div>
          </div>
-         <section>
+         <section class="">
             <div class="row">
                <div class="col-12 col-md-6">
                   <div class="block-text">
@@ -541,8 +697,8 @@
                   </div>
                </div>
                <div class="col-12 col-md-6">
-                  <div class="owl-carousel owl-theme h-100">
-                     <div> <img height="100" src="https://delvaux-media.imgix.net/boutiques/Delvaux-New-Bond-Street-3.jpg?auto=format&crop=focalpoint&domain=delvaux-media.imgix.net&fit=crop&w=1125&h=1500&q=80&fm=pjpg&cs=srgb&fp-x=0.5&fp-y=0.5&ixlib=php-2.1.1" alt=""> </div>
+                  <div class="owl-carousel owl2 owl-theme h-100 index-owl">
+                     <div> <img src="https://delvaux-media.imgix.net/boutiques/Delvaux-New-Bond-Street-3.jpg?auto=format&crop=focalpoint&domain=delvaux-media.imgix.net&fit=crop&w=1125&h=1500&q=80&fm=pjpg&cs=srgb&fp-x=0.5&fp-y=0.5&ixlib=php-2.1.1" alt=""> </div>
                      <div> <img src="https://delvaux-media.imgix.net/boutiques/2023_06_01_DELVAUX_BOUTIQUE4834_4_5.jpg?auto=format&crop=focalpoint&domain=delvaux-media.imgix.net&fit=crop&w=1125&h=1500&q=80&fm=pjpg&cs=srgb&fp-x=0.5&fp-y=0.5&ixlib=php-2.1.1" alt=""> </div>
                      <div> <img src="https://delvaux-media.imgix.net/boutiques/2023_06_01_DELVAUX_BOUTIQUE4834_4_5.jpg?auto=format&crop=focalpoint&domain=delvaux-media.imgix.net&fit=crop&w=1125&h=1500&q=80&fm=pjpg&cs=srgb&fp-x=0.5&fp-y=0.5&ixlib=php-2.1.1" alt=""> </div>
                      <div> <img src="https://delvaux-media.imgix.net/boutiques/Delvaux-Boutique-Roma-1.jpg?auto=format&crop=focalpoint&domain=delvaux-media.imgix.net&fit=crop&w=1125&h=1500&q=80&fm=pjpg&cs=srgb&fp-x=0.5&fp-y=0.5&ixlib=php-2.1.1" alt=""> </div>
@@ -643,6 +799,47 @@
                   >Explore fragrance and beauty</a
                   >
             </p>
+         </section>
+         <section class="ap-carousel">
+            <div class="row">
+               <div class="col-12 col-lg-4">
+                  <div class="text block-text text-start">
+                     <h2 class="editorial-block-title text-start">AP CHRONICLES:  DIVE INTO AUDEMARS PIGUET'S HISTORY </h2>
+            <p class="editorial-block-intro text-start">
+               Travel back in time and immerse yourself into Audemars Piguet's universe through enriched articles, technical sheets of models and calibres as well as exclusive anecdotes and archival footages uncovered by our Heritage team.
+            </p>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-8">
+                  <div class="owl-carousel owl1 owl-theme">
+                     <div class="grid-item">
+                         <a href="">
+                             <img class="image-product" src="./images/1.webp" alt="">
+                             <span class="sub-text">Sandals and mules</span>
+                         </a>
+         
+                     </div>
+                     <div class="grid-item">
+                         <a href="">
+                             <img class="image-product" src="./images/1.webp" alt="">
+                             <span class="sub-text">Sandals and mules</span>
+                         </a>
+                     </div>
+                     <div class="grid-item">
+                         <a href="">
+                             <img class="image-product" src="./images/1.webp" alt="">
+                             <span class="sub-text">Sandals and mules</span>
+                         </a>
+                     </div>
+                     <div class="grid-item">
+                         <a href="">
+                             <img class="image-product" src="./images/1.webp" alt="">
+                             <span class="sub-text">Sandals and mules</span>
+                         </a>
+                     </div>
+                 </div>
+               </div>
+            </div>
          </section>
          <section class="block_full_hero_media">
             <img
@@ -1319,7 +1516,7 @@
       </script>
       <script>
          $(document).ready(function() {
-            $('#collection-button').click(function() {
+            $('.button-menu').click(function() {
                $('#menu-tray-container').addClass('show');
             });
             // Hàm xử lý khi nhấp vào .tray-overlay
@@ -1386,27 +1583,65 @@
       </script>
       <script>
          $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
+            $('.owl2').owlCarousel({
                margin: 20,
                items: 4,
                loop: true,
-               nav: false,
+               nav: true,
                responsive: {
                   0: {
                      items: 2,
                      dots: true
                   },
                   1021: {
-                     items: 4,
+                     items: 1,
                      dots: false
                   },
                   768: {
-                     items: 2,
+                     items: 4,
                      dots: false
 
                   }
-               }
+               },
+               onInitialized: function(event) {
+               $('.owl-carousel .owl-item').css('height', '100%'); // Set chiều cao ở đây
+            }
             });
+            $('.owl1').owlCarousel({
+            margin: 20, // Khoảng cách giữa các item
+            items: 4, // Số lượng item hiển thị trong cùng một thời điểm
+            loop: true,
+            nav: false, // Tắt nút điều hướng mặc định của Owl Carousel
+            responsive: {
+                0: {
+                    items: 2,
+                    dots: true
+                },
+                1021: {
+                    items: 4,
+                    dots: false
+                },
+                768: {
+                    items: 2,
+                    dots: false
+
+                }
+            }
+        });
+
+/// menu scroll show
+let lastScrollTop = 0;
+$(window).on("scroll", function() {
+    let currentScrollTop = $(this).scrollTop();
+    if (currentScrollTop > 100 && currentScrollTop < lastScrollTop) {
+        // Scroll lên và cách top 100px
+        $('.header-main-container.scroll').addClass('show');
+    } else {
+        // Scroll xuống hoặc chưa đạt 100px từ top
+        $('.header-main-container.scroll').removeClass('show');
+    }
+    lastScrollTop = currentScrollTop;
+});
          });
       </script>
    </body>
