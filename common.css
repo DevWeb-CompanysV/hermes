@@ -258,21 +258,23 @@
   background-color: transparent;
   font-size: 0.9230769231rem;
   height: 1.8461538462rem;
+  outline: none;
+  border: none;
 }
 
 @media (min-width: 768px) {
   .search-input {
     transition: width 0.2s ease-out;
-    border: 1px solid #696969;
     background-color: #fff;
     text-indent: 0;
     width: 10.7692307692rem;
     height: 3.2307692308rem;
     padding-left: 3.0769230769rem;
+    outline: none;
+    border: none;
   }
 }
 .search-input.focused {
-  border: 1px solid #696969;
   background-color: #fff;
   text-indent: 0;
   width: 100%;
@@ -796,40 +798,23 @@
   align-items: center;
 }
 
-#menu-tray-container
-  .tray-wrapper
-  .primary-menu-list-item
-  .secondary-entry
-  .secondary-menu-list-item:first-child {
+#menu-tray-container .tray-wrapper .primary-menu-list-item .secondary-entry .secondary-menu-list-item:first-child {
   margin-top: 1.3076923077rem;
 }
 
-#menu-tray-container
-  .tray-wrapper
-  .primary-menu-list-item
-  .secondary-entry
-  .secondary-menu-list-item {
+#menu-tray-container .tray-wrapper .primary-menu-list-item .secondary-entry .secondary-menu-list-item {
   padding: 1px;
   margin-top: 1.7692307692rem;
   margin-left: 1.0769230769rem;
 }
 
-#menu-tray-container
-  .tray-wrapper
-  .primary-menu-list-item
-  .secondary-entry
-  .tertiary-link {
+#menu-tray-container .tray-wrapper .primary-menu-list-item .secondary-entry .tertiary-link {
   line-height: 1.2307692308rem;
   font-size: 0.9230769231rem;
   letter-spacing: 0.02rem;
 }
 
-#menu-tray-container
-  .tray-wrapper
-  .primary-menu-list-item
-  .secondary-entry
-  .tertiary-link
-  a {
+#menu-tray-container .tray-wrapper .primary-menu-list-item .secondary-entry .tertiary-link a {
   display: block;
 }
 
@@ -886,16 +871,13 @@
   }
 }
 .header-main-container.scroll {
-  width: 98%;
   display: none;
   position: fixed;
   top: 20px;
-  left: 1%;
   display: block;
   background-color: #fff;
   border-radius: 2rem;
-  box-shadow: 0 0 0.4rem 0 rgba(0, 0, 0, 0.05),
-    0.3rem 0.4rem 1rem 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0.4rem 0 rgba(0, 0, 0, 0.05), 0.3rem 0.4rem 1rem 0 rgba(0, 0, 0, 0.1);
   opacity: 0; /* mặc định ẩn */
   transform: translateY(-20px); /* hiệu ứng di chuyển */
   transition: opacity 0.4s ease, transform 0.4s ease; /* thêm chuyển động */
@@ -909,9 +891,6 @@
   transform: translateY(0); /* trở về vị trí ban đầu */
 }
 
-@media (max-width: 768px) {
-  .header-main-container.show.scroll {
-    display: none;
-  }
-}
+
+
 /*# sourceMappingURL=common.css.map */

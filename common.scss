@@ -224,6 +224,7 @@
 .search-input-container {
   position: relative;
   width: 100%;
+;
 }
 
 @media (min-width: 768px) {
@@ -257,21 +258,25 @@
   background-color: transparent;
   font-size: 0.9230769231rem;
   height: 1.8461538462rem;
+  outline: none;
+  border: none
 }
 
 @media (min-width: 768px) {
   .search-input {
     transition: width 0.2s ease-out;
-    border: 1px solid #696969;
+    // border: 1px solid #696969;
     background-color: #fff;
     text-indent: 0;
     width: 10.7692307692rem;
     height: 3.2307692308rem;
     padding-left: 3.0769230769rem;
+    outline: none;
+    border: none
   }
 }
 .search-input.focused {
-  border: 1px solid #696969;
+  // border: 1px solid #696969;
   background-color: #fff;
   text-indent: 0;
   width: 100%;

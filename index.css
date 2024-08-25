@@ -41,8 +41,9 @@
   --font-weight-mini-text: 400;
 }
 
-#main-content {
-  padding: 15px;
+#main-content .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #main-content .block_full_hero_media {
@@ -1272,7 +1273,7 @@
 
 #catrgory-product .product2 .product-item-meta .product-item-price .price {
   font-size: var(--font-size-price-2);
-  color: #696969;
+  color: #edeae2;
   font-family: var(--font-body);
 }
 
